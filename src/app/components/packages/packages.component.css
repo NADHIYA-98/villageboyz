@@ -1,0 +1,317 @@
+/* .packageHeading {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    line-height: 2em;
+    font-weight: 700;
+    letter-spacing: -.01em;
+    text-transform: uppercase;
+    color: #181a23;
+}
+
+.packageHeader{
+        padding: 16px 16px;
+        background-color: #f0f2f4;
+        border-bottom: 1px solid #fff;
+        border-color: inherit
+}
+
+.pricing-table-default {
+    border: 1px solid #e4e4eb
+}
+
+.pricing-table-default .pricing-table-header {
+    padding: 16px 16px;
+    background-color: #f0f2f4;
+    border-bottom: 1px solid #fff;
+    border-color: inherit
+}
+
+.pricing-table-default h5 {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    line-height: 2em;
+    font-weight: 700;
+    letter-spacing: -.01em;
+    text-transform: uppercase;
+    color: #181a23
+}
+
+.pricing-table-default h5 small {
+    display: block;
+    font-size: 50%;
+    font-weight: 600;
+    letter-spacing: .1em;
+    color: var(--color-primary);
+    margin-bottom: 10px
+}
+
+.pricing-table-default .pricing-table-body {
+    padding: 0px 45px;
+    border-color: inherit
+}
+
+.pricing-table-default ul {
+    color: #828593;
+    border-color: inherit
+}
+
+.pricing-table-default ul li {
+    padding: 1em 0;
+    font-size: 15px;
+    line-height: 1.4em;
+    border-bottom: 1px solid #fff;
+    border-color: inherit
+}
+
+.pricing-table-default ul strong {
+    display: block;
+    font-size: 1.071428571428571em;
+    color: #181a23
+}
+
+.pricing-table-default .btn {
+    margin-bottom: 25px
+}
+
+.pricing-table-default .pricing {
+    margin-bottom: .666em;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--ast-global-color-0) !important;
+}
+
+.pricing-table-default .pricing sup {
+    font-size: 60%;
+    font-weight: 400
+}
+
+.pricing-table {
+    margin-bottom: 2em;
+    position: relative;
+    text-align: center
+}
+
+.pricing-table ul {
+    padding: 0;
+    list-style: none
+}
+
+.pricing-table ul li {
+    display: block
+}
+
+.pricing-table .btn {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.pricing-table .pricing {
+    margin: 0
+}
+
+.pricing-table.featured {
+    z-index: 2
+}
+
+.pricing-table-footer:empty {
+    display: none
+}
+
+.btn:hover {
+    border-color: transparent;
+    background-color: var(--color-primary);
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05), 0 2px 2px rgba(0, 0, 0, .05), 0 4px 4px rgba(0, 0, 0, .05), 0 8px 8px rgba(0, 0, 0, .05), 0 16px 16px rgba(0, 0, 0, .05)
+}
+
+.btn {
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    border: 1px solid var(--ast-global-color-0) !important;
+    border-radius: 0;
+    font-size: 1em;
+    white-space: nowrap;
+    color: var(--ast-global-color-0) !important;
+    transition: all .3s ease;
+    box-shadow: 0 0 0 rgba(0, 0, 0, .05), 0 0 0 rgba(0, 0, 0, .05), 0 0 0 rgba(0, 0, 0, .05), 0 0 0 rgba(0, 0, 0, .05), 0 0 0 rgba(0, 0, 0, .05)
+}
+
+.btn-sm>span {
+    padding: .85em 1.5em
+}
+
+.btn-sm.wide>span {
+    padding-left: 3em;
+    padding-right: 3em
+}
+
+.btn-bordered-gradient {
+    border: none
+}
+
+.btn-bordered-gradient:hover defs stop:first-child {
+    stop-color: var(--color-gradient-start)
+}
+
+.btn-bordered-gradient:hover defs stop:last-child {
+    stop-color: var(--color-gradient-stop)
+}
+
+.semi-round {
+    border-radius: 2px
+}
+
+.text-capitalize {
+    text-transform: capitalize !important
+}
+
+.btn.border-thin {
+    border-width: 1px
+}
+
+.btn.border-thin>span {
+    margin: -.5px
+}
+
+.btn.border-thin .btn-gradient-border rect {
+    stroke-width: 1px
+}
+
+.btn.border-thick {
+    border-width: 2px
+}
+
+.btn.border-thick>span {
+    margin: -1px
+}
+
+.btn.border-thick .btn-gradient-border rect {
+    stroke-width: 2px
+}
+
+
+.btn>span,
+.btn strong,
+.btn i {
+    transition: transform 0.3s cubic-bezier(.22, .665, .34, .875)
+}
+
+.btn>span {
+    display: inline-flex;
+    padding: 1.15em 2.1em;
+    border-radius: inherit;
+    border-color: inherit;
+    flex-flow: row wrap;
+    align-items: center
+}
+
+
+.ast-custom-buttonn {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: var(--ast-body-line-height, 1.65);
+}
+
+
+        .ast-custom-buttonn {
+            color: #ffffff;
+    border-color: var(--ast-global-color-0);
+    background-color: var(--ast-global-color-0);
+    padding-top: 14px;
+    padding-right: 20px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+        }
+
+        .ast-custom-buttonn:hover .button:hover,
+        .ast-custom-buttonn:hover {
+            color: #ffffff;
+            background-color: var(--ast-global-color-1);
+            border-color: var(--ast-global-color-1);
+        }
+
+        .bookBtn{
+            margin: auto;
+            width: 40%;
+            padding: 10px;
+        }
+
+        .startsCss{
+            font-size: x-large !important;
+        }
+
+
+        .fillColor{
+            fill: var(--ast-global-color-4) !important;
+        }
+
+        .hideLines{
+            border-bottom: 0px solid #fff !important
+        }
+
+        .textCaps{
+            text-transform: capitalize !important;
+        }
+
+        .marginRightDiv{
+            margin-right: 12px !important;
+        }
+        
+        .marginTopDiv{
+            margin-top: -352px !important;
+        }
+        
+        
+        .headingCls{
+            font-family: Rubik;
+            font-weight: 400;
+            line-height: 1.342em;
+            font-size: 35px;
+            color: #1A1C26
+        }
+        
+
+        .packageComplemetry{
+            color: var(--ast-global-color-0) !important;
+        }
+        
+        .ld-fancy-heading p,
+        .ld-fancy-heading h1,
+        .ld-fancy-heading h2,
+        .ld-fancy-heading h3,
+        .ld-fancy-heading h4,
+        .ld-fancy-heading h5,
+        .ld-fancy-heading h6,
+        .ld-fancy-heading>div {
+            display: inline-block;
+            margin-top: 0;
+            margin-bottom: 0.5em
+        }
+        
+        .ld_fancy_heading_669255deeb7b0 .lqd-highlight-inner {
+            height: 0.275em;
+            bottom: 0px;
+        }
+        
+        .lqd-highlight-underline .lqd-highlight-inner {
+            height: 0.275em
+        }
+ */
+ 
+
+/* .imageOpacity{
+    opacity: 0.90;
+} */

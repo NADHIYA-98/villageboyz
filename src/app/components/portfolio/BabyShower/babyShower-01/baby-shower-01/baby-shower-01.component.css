@@ -1,0 +1,42 @@
+.marginRightDiv{
+    margin-right: 12px !important;
+}
+
+.marginTopDivBabyShower{
+    margin-top: -28%;
+}
+
+.marginChanges{
+    margin-top: -74%;
+}
+
+.headingCls{
+    font-family: Rubik;
+    font-weight: 400;
+    line-height: 1.342em;
+    font-size: 35px;
+    color: #1A1C26
+}
+
+
+.ld-fancy-heading p,
+.ld-fancy-heading h1,
+.ld-fancy-heading h2,
+.ld-fancy-heading h3,
+.ld-fancy-heading h4,
+.ld-fancy-heading h5,
+.ld-fancy-heading h6,
+.ld-fancy-heading>div {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0.5em
+}
+
+.ld_fancy_heading_669255deeb7b0 .lqd-highlight-inner {
+    height: 0.275em;
+    bottom: 0px;
+}
+
+.lqd-highlight-underline .lqd-highlight-inner {
+    height: 0.275em
+}
