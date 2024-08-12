@@ -236,12 +236,12 @@
     letter-spacing: 1px;
 }
 
-.ast-custom-buttonn:hover .button:hover,
+/* .ast-custom-buttonn:hover .button:hover,
 .ast-custom-buttonn:hover {
     color: #ffffff;
     background-color: var(--ast-global-color-1);
     border-color: var(--ast-global-color-1);
-}
+} */
 
 .bookBtn {
     margin: auto;
@@ -1102,3 +1102,36 @@
 .buttonAddedOnImg3{
     transform: translate(-19%, -182%);
 }
+
+.zoom {
+    /* padding: 50px; */
+    /* background-color: green; */
+    transition: transform .2s;
+    /* width: 100px; */
+    /* height: 100px; */
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+  .viewPackageImg1{
+    margin-left: -13px !important;
+    margin-top: 0px !important;
+    max-width: 120%;
+  }
+
+  .viewPackageImg2{
+    margin-left: -13px !important;
+    margin-top: 3px !important;
+    max-width: 120%;
+  }
+
+  .viewPackageImg3{
+    margin-left: -13px !important;
+    margin-top: 5px !important;
+    max-width: 120%;
+  }

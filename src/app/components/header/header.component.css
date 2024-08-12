@@ -18,3 +18,20 @@ img {
 ul li:hover a {
     color: var(--ast-global-color-0);;
 }
+
+
+/* @media screen 
+    and (max-device-width: 640px) {
+        .mobileHeaderLogo{
+            width: 30% !important;
+            margin-left: 120px !important;
+        }
+} */
+
+@media(max-width: 1200px) {
+    .mobileHeaderLogo{
+        margin-left: calc(-1 * min(var(--ast-container-default-xlg-padding), 120px));
+        margin-right: calc(-1 * min(var(--ast-container-default-xlg-padding), 20px));
+        width: 30% !important;
+    }
+}
