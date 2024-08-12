@@ -17,22 +17,22 @@ export class BackgroundImageChangeComponent {
         "./assets/wp-content/uploads/Home-page-pics/background-Image/Image1.jpeg"
     },
    {
-     imageDesciption: "Candid's are raw, but Candid photography is an art of perfection",
+     imageDesciption: "Marriages are made in heaven, celebrated on land witnessed by photographers.",
      image:
        "./assets/wp-content/uploads/Home-page-pics/background-Image/Image2.jpg"
    },
    {
-     imageDesciption: "Embarcing the journey of love, one frame at a time",
+     imageDesciption: "Framing Love & Beyond",
      image:
        "./assets/wp-content/uploads/Home-page-pics/background-Image/Image3.jpg"
    },
    {
-    imageDesciption: "Framing Love & Beyond",
+    imageDesciption: "Candid's are raw, but Candid photography is an art of perfection",
     image:
       "./assets/wp-content/uploads/Home-page-pics/background-Image/Image4.JPG"
   },
   {
-    imageDesciption: "Marriages are made in heaven, celebrated on land witnessed by photographers.",
+    imageDesciption: "Embarcing the journey of love, one frame at a time",
     image:
       "./assets/wp-content/uploads/Home-page-pics/background-Image/Image5.JPG"
   }
@@ -57,7 +57,7 @@ export class BackgroundImageChangeComponent {
      }
      this.actualImage = this.images[this.changeBackgroundCounter].image;
      this.actualImageDescription = this.images[this.changeBackgroundCounter].imageDesciption;
-   }, 5000);
+   }, 2000);
  }
 
 
