@@ -1,9 +1,10 @@
 .containerDiv {
     background-size: cover;
     background-position: top center;
-    height: 100vh;
+    height: 78.9vh;
     width: 100%;
     background-repeat: no-repeat;
+    background-position: right -78px;
   }
 
   .opacityImg {

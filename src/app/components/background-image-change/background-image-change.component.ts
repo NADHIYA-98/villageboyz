@@ -19,12 +19,12 @@ export class BackgroundImageChangeComponent {
    {
      imageDesciption: "Candid's are raw, but Candid photography is an art of perfection",
      image:
-       "./assets/wp-content/uploads/Home-page-pics/background-Image/Image2.JPG"
+       "./assets/wp-content/uploads/Home-page-pics/background-Image/Image2.jpg"
    },
    {
      imageDesciption: "Embarcing the journey of love, one frame at a time",
      image:
-       "./assets/wp-content/uploads/Home-page-pics/background-Image/Image3.jpeg"
+       "./assets/wp-content/uploads/Home-page-pics/background-Image/Image3.jpg"
    },
    {
     imageDesciption: "Framing Love & Beyond",
@@ -34,7 +34,7 @@ export class BackgroundImageChangeComponent {
   {
     imageDesciption: "Marriages are made in heaven, celebrated on land witnessed by photographers.",
     image:
-      "./assets/wp-content/uploads/Home-page-pics/background-Image/Image5.jpg"
+      "./assets/wp-content/uploads/Home-page-pics/background-Image/Image5.JPG"
   }
  ];
 
