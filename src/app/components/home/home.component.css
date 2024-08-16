@@ -1153,7 +1153,11 @@
     }
 
     .imageMarginTop{
-        margin-top: -40px !important;
+        margin-top: -55px !important;
+    }
+
+    .fontSizeTXT{
+        font-size: 25px !important;
     }
   }
 
