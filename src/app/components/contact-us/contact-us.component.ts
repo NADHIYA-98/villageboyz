@@ -12,7 +12,6 @@ export class ContactUsComponent {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    debugger;
     this.scrollTop();
 }
 

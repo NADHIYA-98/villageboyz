@@ -17,7 +17,6 @@ export class HeaderComponent {
   constructor (private router: Router){}
 
   ngOninit() {
-    debugger;
     // this.colorHome = "var(--ast-global-color-0)";
     // this.changeColor('home');
   }

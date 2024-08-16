@@ -46,7 +46,6 @@ export class BackgroundImageChangeComponent {
  constructor() {}
 
  ngOnInit() {
-  debugger;
    this.images = this.getImages();
    this.actualImage = this.images[0].image;
    this.actualImageDescription = this.images[0].imageDesciption;

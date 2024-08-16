@@ -10,7 +10,6 @@ export class PortfolioComponent {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    debugger;
     this.scrollTop();
 }
 
