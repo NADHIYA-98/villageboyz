@@ -1,7 +1,17 @@
-.marginTopDiv{
+.marginTopDiv {
     margin-top: -68px;
 }
 
-.textJustify{
+.textJustify {
     text-align: justify;
+}
+
+@media only screen and (max-width: 976px) {
+    .marginTopaboutUSMobile {
+        margin-top: 0px !important;
+    }
+
+    .marginFocusTop {
+        margin-top: 25px;
+    }
 }
