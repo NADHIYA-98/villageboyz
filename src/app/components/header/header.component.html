@@ -155,7 +155,7 @@ ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="h
                             <div class="ast-button-wrap">
                                 <button type="button"
                                     class="menu-toggle main-header-menu-toggle ast-mobile-menu-trigger-outline"
-                                    aria-expanded="false">
+                                    aria-expanded="false"  (click)="mobileToggle()">
                                     <span class="screen-reader-text">Main Menu</span>
                                     <span class="mobile-menu-toggle-icon">
                                         <span class="ahfb-svg-iconset ast-inline-flex svg-baseline"><svg
@@ -181,7 +181,8 @@ ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="h
                 </div>
             </div>
         </div>
-        <div class="ast-mobile-header-content content-align-flex-start ">
+
+        <div class="content-align-flex-start" *ngIf="showMobileHeader">
             <div class="ast-builder-menu-mobile ast-builder-menu ast-builder-menu-mobile-focus-item ast-builder-layout-element site-header-focus-item"
                 data-section="section-header-mobile-menu">
                 <div class="ast-main-header-bar-alignment">
@@ -194,8 +195,6 @@ ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="h
                                     class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile">
                                     <li
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-50 current_page_item menu-item-60">
-                                        <!-- <a routerLink='/home' aria-current="page" class="menu-link" (click)="changeColor('home')"
-                                        style="color:{{this.colorHome}}">Home</a> -->
                                         <a routerLink='/home' aria-current="page" class="menu-link">Home</a>
                                     </li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a
@@ -204,9 +203,6 @@ ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="h
                                         routerLink='/portfolio' class="menu-link">Portfolio</a></li>
                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a
                                                 routerLink='/packages' class="menu-link">Packages</a></li>
-                                    <!-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a
-                                        routerLink='/contact-us' class="menu-link" (click)="changeColor('contactUs')"
-                                            style="color:{{this.colorContactUs}}">Contact Us</a></li> -->
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a
                                         routerLink='/about-us' class="menu-link">About Us</a></li>
                                 </ul>

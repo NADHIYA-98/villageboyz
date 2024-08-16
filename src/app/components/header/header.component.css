@@ -34,3 +34,54 @@ ul li:hover a {
         width: 40% !important;
     }
 }
+ .ast-button-wrap .ast-mobile-menu-trigger-outline {
+    background: transparent;
+    color: var(--ast-global-color-0);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-style: solid;
+    border-color: var(--ast-global-color-0);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+ .ast-button-wrap .mobile-menu-toggle-icon .ast-mobile-svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--ast-global-color-0);
+}
+
+.ast-button-wrap .mobile-menu-wrap .mobile-menu {
+    color: var(--ast-global-color-0);
+}
+
+
+
+[data-section="section-header-mobile-trigger"] .ast-button-wrap .ast-mobile-menu-trigger-outline {
+    background: transparent;
+    color: var(--ast-global-color-0);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-style: solid;
+    border-color: var(--ast-global-color-0);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+[data-section="section-header-mobile-trigger"] .ast-button-wrap .mobile-menu-toggle-icon .ast-mobile-svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--ast-global-color-0);
+}
+
+[data-section="section-header-mobile-trigger"] .ast-button-wrap .mobile-menu-wrap .mobile-menu {
+    color: var(--ast-global-color-0);
+}

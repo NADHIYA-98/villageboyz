@@ -13,6 +13,7 @@ export class HeaderComponent {
   colorContactUs: any;
   colorServices: any;
   colorAboutUs: any;
+  showMobileHeader: boolean = false;
   constructor (private router: Router){}
 
   ngOninit() {
@@ -77,4 +78,10 @@ export class HeaderComponent {
 //     }
     
 //  }
+
+mobileToggle()
+{
+  console.log("show toggle")
+  this.showMobileHeader = true;
+}
 }
