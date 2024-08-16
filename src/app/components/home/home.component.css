@@ -1135,3 +1135,22 @@
     margin-top: 5px !important;
     max-width: 120%;
   }
+
+
+
+  @media only screen and (max-width: 976px) {
+
+    .mobilePaddingLeft{
+        padding-left: 0px !important
+    }
+
+    .mobilePaddingRight{
+      padding-right: 0px !important;
+    }
+
+    .mobileTopPlace{
+        margin-top: 137px !important;
+    }
+  }
+
+  

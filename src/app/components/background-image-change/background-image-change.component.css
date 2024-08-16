@@ -10,4 +10,26 @@
   .opacityImg {
     opacity: 2.5 !important;
   }
+
+  .marginBtm{
+    margin-bottom: -290px !important;
+  }
+
+  @media only screen and (max-width: 976px) {
+
+    .mobileImage{
+      margin-bottom: -103px !important;
+      background-position: right center;
+      margin-right: 0px !important;
+      margin-left: 0px !important;
+    }
+
+    .mobileBottom{
+      margin-bottom: 0px !important;
+    }
+
+    .fontSize{
+      font-size: x-small !important;
+    }
+  }
   
