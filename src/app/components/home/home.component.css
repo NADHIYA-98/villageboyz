@@ -1151,6 +1151,10 @@
     .mobileTopPlace{
         margin-top: 137px !important;
     }
+
+    .imageMarginTop{
+        margin-top: -40px !important;
+    }
   }
 
   
