@@ -31,6 +31,6 @@ ul li:hover a {
 @media(max-width: 1200px) {
     .mobileHeaderLogo{
         margin-right: calc(-1 * min(var(--ast-container-default-xlg-padding), 20px));
-        width: 80% !important;
+        width: 40% !important;
     }
 }
