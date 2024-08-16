@@ -1157,7 +1157,7 @@
     }
 
     .imageMarginTop2{
-        margin-top: -80px !important;
+        margin-top: -85px !important;
     }
 
     .fontSizeTXT{
@@ -1166,6 +1166,10 @@
 
     .marginTopCard{
         margin-top: -38px !important;
+    }
+
+    .marginTopTTxt{
+        margin-top: -30px !important;
     }
   }
 
