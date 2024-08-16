@@ -14,4 +14,8 @@
     .marginFocusTop {
         margin-top: 25px;
     }
+
+    .marginTopHeading{
+        margin-top: -50px;
+    }
 }
