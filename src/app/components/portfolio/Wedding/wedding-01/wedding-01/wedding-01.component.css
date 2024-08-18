@@ -55,10 +55,14 @@
     }
 
     .marginTopDivHeight{
-        margin-top: -125px !important;
+        margin-top: -145px !important;
     }
 
     .marginLeft{
         margin-left: 15px;
+    }
+
+    .marginRigt{
+        margin-right: 12px;
     }
 }
