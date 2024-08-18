@@ -90,6 +90,7 @@ mobileToggle()
 
 mobileToggleClose()
 {
+  console.log("close toggle")
   this.showMobileHeader = false;
   this.showCloseIcon = false;
   this.showToggleIcon = true;

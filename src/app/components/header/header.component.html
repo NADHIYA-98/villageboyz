@@ -155,10 +155,11 @@ ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="h
                             <div class="ast-button-wrap">
                                 <button type="button"
                                     class="menu-toggle main-header-menu-toggle ast-mobile-menu-trigger-outline"
-                                    aria-expanded="false" (click)="mobileToggle()">
+                                    aria-expanded="false">
                                     <span class="screen-reader-text">Main Menu</span>
                                     <span class="mobile-menu-toggle-icon">
-                                        <span class="ahfb-svg-iconset ast-inline-flex svg-baseline" *ngIf="showToggleIcon"><svg
+                                        <span class="ahfb-svg-iconset ast-inline-flex svg-baseline" *ngIf="showToggleIcon"
+                                        (click)="mobileToggle()"><svg
                                                 class='ast-mobile-svg ast-menu2-svg' fill='currentColor' version='1.1'
                                                 xmlns='http://www.w3.org/2000/svg' width='24' height='28'
                                                 viewBox='0 0 24 28'>
@@ -167,7 +168,8 @@ ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="h
                                                 </path>
                                             </svg></span>
                                             <span *ngIf="showCloseIcon">
-                                                <img  (click)="mobileToggleClose()" src="./assets/wp-content/uploads/Additional Icons/closeIcon.png">
+                                                <!-- <img  (click)="mobileToggleClose()" src="./assets/wp-content/uploads/Additional Icons/closeIcon.png"> -->
+                                                <i class="ico-times" (click)="mobileToggleClose()" role="img" aria-label="Cancel"></i>
                                             </span> 
                                         </span>
                                 </button>
@@ -201,6 +203,8 @@ ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="h
                                                 routerLink='/packages' class="menu-link">Packages</a></li>
                                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a
                                         routerLink='/about-us' class="menu-link">About Us</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"><a
+                                            routerLink='/contact-us' class="menu-link">Contact Us</a></li>
                                 </ul>
                             </div>
                         </nav>

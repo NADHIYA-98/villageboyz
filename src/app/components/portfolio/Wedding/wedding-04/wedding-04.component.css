@@ -43,9 +43,12 @@
     .marginTopMobile{
         margin-top: 0px !important
     }
+    .marginTopMobile1{
+    margin-top: 7px !important;
+    }
 
     .heightMobile{
-        height: 0px !important;
+        height: 1% !important;
     }
 
     .marginTopPic{
