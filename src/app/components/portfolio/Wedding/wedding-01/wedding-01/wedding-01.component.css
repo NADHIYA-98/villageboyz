@@ -44,4 +44,9 @@
     .marginTopMobile{
         margin-top: 0px !important
     }
+
+    .marginTopp{
+        margin-top: -100px;
+        height: 0px !important;
+    }
 }
