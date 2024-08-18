@@ -14,6 +14,8 @@ export class HeaderComponent {
   colorServices: any;
   colorAboutUs: any;
   showMobileHeader: boolean = false;
+  showCloseIcon: boolean = false;
+  showToggleIcon: boolean = true;
   constructor (private router: Router){}
 
   ngOninit() {
@@ -82,5 +84,14 @@ mobileToggle()
 {
   console.log("show toggle")
   this.showMobileHeader = true;
+  this.showCloseIcon = true;
+  this.showToggleIcon = false;
+}
+
+mobileToggleClose()
+{
+  this.showMobileHeader = false;
+  this.showCloseIcon = false;
+  this.showToggleIcon = true;
 }
 }
