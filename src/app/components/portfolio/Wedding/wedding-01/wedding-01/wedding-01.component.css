@@ -49,4 +49,16 @@
         margin-top: -100px;
         height: 0px !important;
     }
+
+    .marginRright{
+        margin-right: 7px;
+    }
+
+    .marginTopDivHeight{
+        margin-top: -125px !important;
+    }
+
+    .marginLeft{
+        margin-left: 15px;
+    }
 }
