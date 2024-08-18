@@ -45483,8 +45483,8 @@ body.archive.woocommerce #content~.lqd-main-footer-default {
 }
 
 .iconbox .iconbox-icon-container {
-    width: 55px !important;
-    height: 55px !important;
+    width: 33px !important;
+    height: 33px !important;
     display: flex;
     margin-bottom: 0.5em;
     border: 0 solid #F2F4F7;
@@ -46013,8 +46013,8 @@ body.archive.woocommerce #content~.lqd-main-footer-default {
 .iconbox-xs.iconbox-circle .iconbox-icon-container,
 .iconbox-xs.iconbox-square .iconbox-icon-container,
 .iconbox-xs.iconbox-lozenge .iconbox-icon-container {
-    width: 45px;
-    height: 45px
+    width: 33px;
+    height: 33px
 }
 
 .iconbox-xs.iconbox-hexagon .iconbox-icon-container {
