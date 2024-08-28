@@ -97,4 +97,8 @@
     .margTop{
         margin-top: 27px;
     }
+
+    .marginElite{
+        margin-right: 15px !important;
+    }
 }
