@@ -37,3 +37,31 @@
 .lqd-highlight-underline .lqd-highlight-inner {
     height: 0.275em
 }
+
+@media only screen and (max-width: 976px) {
+
+    .marginTopMobile{
+        margin-top: 0px !important;
+    }
+
+    .marginRightt{
+        margin-right: 7px !important;
+    }
+
+    .marginRightPic{
+        margin-right: 13px !important;
+    }
+
+    .imageHeight{
+        height: 0px !important;
+    }
+
+    .marginRightTop{
+        margin-top: -30px !important;
+    }
+
+    .marginLeftBtn{
+        margin-left: 21px;
+        margin-right: 21px;
+    }
+}
