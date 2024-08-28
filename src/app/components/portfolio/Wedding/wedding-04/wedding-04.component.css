@@ -61,7 +61,6 @@
     }
 
     .marginLeftBtn{
-        margin-left: 21px;
         margin-right: 21px;
     }
 
@@ -71,6 +70,10 @@
 
     .marginRightt{
         margin-right: 7px !important;
+    }
+
+    .marginHeight{
+        height: 70% !important;
     }
 }
     
