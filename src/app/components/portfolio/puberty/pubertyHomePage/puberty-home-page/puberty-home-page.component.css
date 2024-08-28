@@ -957,5 +957,29 @@
     border-radius: 8px !important;
 }
 
+@media only screen and (max-width: 976px) {
+
+    .marginTopMobile{
+        margin-top: 0px !important;
+    }
+
+    .widthBox{
+        width: 100% !important;
+    }
+
+    .marginRightt{
+        margin-right: 25px;
+    }
+
+    .marginLeft0Px{
+        margin-left: 0px !important;
+    }
+
+    .heightBox{
+       height: 255px !important;
+    }
+
+}
+
 
 
