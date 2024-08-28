@@ -48,4 +48,12 @@
     .marginRightt{
         margin-right: 7px !important;
     }
+
+    .marginRightPic{
+        margin-right: 13px !important;
+    }
+
+    .marginLeft{
+        margin-left: 0px !important;
+    }
 }
