@@ -66,4 +66,8 @@
     .marginRigt{
         margin-right: 12px;
     }
+
+    .ImageHeight{
+        height: 0px !important;
+    }
 }
