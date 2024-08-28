@@ -51,4 +51,9 @@
     .marginRightPic{
         margin-right: 13px !important;
     }
+
+    .marginLeftBtn{
+        margin-left: 21px;
+        margin-right: 21px;
+    }
 }

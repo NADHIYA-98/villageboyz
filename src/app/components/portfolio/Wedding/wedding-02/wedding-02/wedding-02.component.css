@@ -60,4 +60,9 @@
     .marTop{
         margin-top: 5px !important;
     }
+
+    .marginLeftBtn{
+        margin-left: 21px;
+        margin-right: 21px;
+    }
 }

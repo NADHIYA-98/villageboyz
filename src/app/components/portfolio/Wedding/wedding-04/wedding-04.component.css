@@ -59,5 +59,18 @@
         margin-top: -40px !important;
         margin-left: 18px !important;
     }
+
+    .marginLeftBtn{
+        margin-left: 21px;
+        margin-right: 21px;
+    }
+
+    .marginRightPic{
+        margin-right: 13px !important;
+    }
+
+    .marginRightt{
+        margin-right: 7px !important;
+    }
 }
     
