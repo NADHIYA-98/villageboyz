@@ -49,6 +49,18 @@
     margin-left: 9px !important;
     }
 
+    .packageImageMobilePremium{
+        width: 100% !important;
+        margin-top: -43% !important;
+        margin-left: 9px !important;
+        }
+
+        .packageImageMobileElite{
+            width: 100% !important;
+            margin-top: -46% !important;
+            margin-left: 9px !important;
+            }
+
     .eliteMobile{
         margin-top: 0px !important;
     }
@@ -76,9 +88,13 @@
     }
 
     .removeCss{
-    margin-top: 0px !important; 
+    margin-top: -57px !important; 
     margin-right: 0px !important; 
     margin-left: 0px !important;
      width: 100% !important;
+    }
+
+    .margTop{
+        margin-top: 27px;
     }
 }

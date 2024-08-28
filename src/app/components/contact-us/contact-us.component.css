@@ -9,4 +9,8 @@
         margin-top: 47px;
     }
 
+    .marginTopContact{
+        margin-top: 0px !important;
+    }
+
 }
