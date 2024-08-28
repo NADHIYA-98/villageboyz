@@ -75,5 +75,9 @@
     .marginHeight{
         height: 70% !important;
     }
+
+    .marginToop{
+        margin-top: 12px !important;
+    }
 }
     
